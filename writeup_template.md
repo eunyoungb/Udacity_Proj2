@@ -99,7 +99,7 @@ Then I did some other stuff and fit my lane lines with a 2nd order polynomial ki
 
 As you can see in above picture, right lane is not detected properly. This is because we did polyfit with 2nd order but detected lanes are only 2 peices. This caused mis-detection continuously. To solve this, I went back to #2.
 
-I checked the S-channel img. You can see, just after we change color to S-channel, many of lines were already missed and could see only 2 pieces of lines. I coucluded like, from here, even if we calibrated elaboratly, line cannot be detected correctly. 
+I checked the S-channel img. You can see, just after we change color to S-channel, many of lines were already missed and could see only 2 pieces of lines. I coucluded that, from here, even if we calibrated elaboratly, line cannot be detected correctly. 
 
 ![alt text][image6]
 
@@ -111,11 +111,11 @@ Finally, I could polyfit correct line as below.
 
 ![alt text][image8]
 
-#### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
+#### 6. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
 I did this in lines # through # in my code in "7. Determine the curvature of the lane and vehicle position with respect to center & Warp the detected lane boundaries back onto the original image" at ".Udacity_Proj2.ipynb".
 
-#### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
+#### 7. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
 I implemented this step in "7. Determine the curvature of the lane and vehicle position with respect to center & Warp the detected lane boundaries back onto the original image" at ".Udacity_Proj2.ipynb".  Here is an example of my result on a test image:
 
