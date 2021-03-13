@@ -17,13 +17,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/undistortedChessboard.png "Undistorted"
+[image1]: ./output_images/undistortedChessboard.jpg "Undistorted"
 [image2]: ./output_images/undistortedRawImage.jpg "Road Transformed"
 [image3]: ./output_images/thresholded_binary.jpg "Binary Example"
 [image4]: ./output_images/warped_straight_lines.jpg "Warp Example"
 [image5]: ./output_images/onlySchannelEdgeDetection.jpg "Fit Visual Err"
 [image6]: ./output_images/s_channel_withCircle.jpg "S-Channel image"
-[image7]: ./output_images/addGrayChannel.jpg "Using Gray Channel image additionally"
+[image7]: ./output_images/addGrayChannel.png "Using Gray Channel image additionally"
 [image8]: ./output_images/addGrayScaleEdgeDetection.jpg "Fit Visual"
 [image9]: ./output_images/final_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
